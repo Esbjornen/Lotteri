@@ -19,9 +19,13 @@ class Lotteri:
         "Funäsdalen",
         "Kiwi",
         "Melon",
+        "citron",
+        "Cykel"
+        "Örjan Lax",
+        "500 kr",
         ]
 
     def get_vinst(self):
-        slumtal = random.randint(0,16)
-        return self.list_vinster[slumtal]
+        slumptal = random.randint(0,20)
+        return self.list_vinster[3]
     
